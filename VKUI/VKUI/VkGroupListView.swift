@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VkGroupListView: View {
     @ObservedObject var viewModel: GroupModelView
-
+    
     var body: some View {
         List(viewModel.groups) { group in
             GroupCell(group: group)

@@ -46,7 +46,7 @@ struct NewsPost: Codable {
     var views: Cn?
     var reposts: Cn?
     var attachments: [NewsAttach]?
-
+    
     enum CodingKeys: String, CodingKey {
         case postId = "post_id"
         case sourceId = "source_id"

@@ -17,7 +17,7 @@ struct Group: Codable, Identifiable {
     var screenName: String
     var photo: String
     var description: String
-
+    
     enum CodingKeys: String, CodingKey {
         case id
         case name
@@ -34,8 +34,8 @@ extension Group {
 }
 
 #if DEBUG
-    let groupDemoData = GroupItems(items: [
-        Group(id: 1, name: "Swift", screenName: "", photo: "", description: "Swift - ios"),
-        Group(id: 2, name: "Kotlin", screenName: "", photo: "", description: "Kotlin - android"),
-    ])
+let groupDemoData = GroupItems(items: [
+    Group(id: 1, name: "Swift", screenName: "", photo: "", description: "Swift - ios"),
+    Group(id: 2, name: "Kotlin", screenName: "", photo: "", description: "Kotlin - android"),
+])
 #endif

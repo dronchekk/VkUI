@@ -19,7 +19,7 @@ struct Friend: Codable, Identifiable {
     var photo: String
     var domain: String?
     var sex: Int?
-
+    
     enum CodingKeys: String, CodingKey {
         case id
         case firstName = "first_name"
@@ -44,8 +44,8 @@ extension Friend {
 }
 
 #if DEBUG
-    let friendDemoData = FriendItems(items: [
-        Friend(id: 1, firstName: "Вася", lastName: "Пупкин", nickName: "vasya@", photo: ""),
-        Friend(id: 2, firstName: "Andrew", lastName: "Swift", nickName: "AS@", photo: ""),
-    ])
+let friendDemoData = FriendItems(items: [
+    Friend(id: 1, firstName: "Вася", lastName: "Пупкин", nickName: "vasya@", photo: ""),
+    Friend(id: 2, firstName: "Andrew", lastName: "Swift", nickName: "AS@", photo: ""),
+])
 #endif
