@@ -33,6 +33,7 @@
 		69023BE6280D739F00E2050C /* VkGroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE5280D739F00E2050C /* VkGroupListView.swift */; };
 		69023BE8280D73C500E2050C /* VkFriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE7280D73C500E2050C /* VkFriendDetailView.swift */; };
 		69023BEA280D73F100E2050C /* VkNewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE9280D73F100E2050C /* VkNewsFeedView.swift */; };
+		69023BEC280D7BD600E2050C /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BEB280D7BD600E2050C /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		69023BE5280D739F00E2050C /* VkGroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkGroupListView.swift; sourceTree = "<group>"; };
 		69023BE7280D73C500E2050C /* VkFriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkFriendDetailView.swift; sourceTree = "<group>"; };
 		69023BE9280D73F100E2050C /* VkNewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkNewsFeedView.swift; sourceTree = "<group>"; };
+		69023BEB280D7BD600E2050C /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				69023BD3280D711D00E2050C /* CircleImage.swift */,
 				69023BD5280D714500E2050C /* VkButton.swift */,
+				69023BEB280D7BD600E2050C /* SpringAnimation.swift */,
 			);
 			path = ViewModifier;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				69023BC8280D702000E2050C /* News.swift in Sources */,
 				69023BAE280D6C1D00E2050C /* ContentView.swift in Sources */,
 				69023BE2280D72D900E2050C /* GroupCellView.swift in Sources */,
+				69023BEC280D7BD600E2050C /* SpringAnimation.swift in Sources */,
 				69023BBE280D6F3C00E2050C /* NetworkService.swift in Sources */,
 				69023BC6280D700200E2050C /* PhotoGallery.swift in Sources */,
 				69023BCC280D708A00E2050C /* Friend.swift in Sources */,
