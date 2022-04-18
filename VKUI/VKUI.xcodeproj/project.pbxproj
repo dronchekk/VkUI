@@ -11,6 +11,31 @@
 		69023BAE280D6C1D00E2050C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BAD280D6C1D00E2050C /* ContentView.swift */; };
 		69023BB0280D6C2000E2050C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69023BAF280D6C2000E2050C /* Assets.xcassets */; };
 		69023BB3280D6C2000E2050C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69023BB2280D6C2000E2050C /* Preview Assets.xcassets */; };
+		69023BBE280D6F3C00E2050C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BBD280D6F3C00E2050C /* NetworkService.swift */; };
+		69023BC0280D6F7C00E2050C /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BBF280D6F7C00E2050C /* NetworkServiceProtocol.swift */; };
+		69023BC2280D6FA400E2050C /* VkWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BC1280D6FA400E2050C /* VkWebView.swift */; };
+		69023BC4280D6FCA00E2050C /* VKResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BC3280D6FCA00E2050C /* VKResponse.swift */; };
+		69023BC6280D700200E2050C /* PhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BC5280D700200E2050C /* PhotoGallery.swift */; };
+		69023BC8280D702000E2050C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BC7280D702000E2050C /* News.swift */; };
+		69023BCA280D703B00E2050C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BC9280D703B00E2050C /* Group.swift */; };
+		69023BCC280D708A00E2050C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BCB280D708A00E2050C /* Friend.swift */; };
+		69023BCE280D70A800E2050C /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BCD280D70A800E2050C /* AuthData.swift */; };
+		69023BD0280D70CD00E2050C /* FriendModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BCF280D70CD00E2050C /* FriendModelView.swift */; };
+		69023BD2280D70DD00E2050C /* GroupModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BD1280D70DD00E2050C /* GroupModelView.swift */; };
+		69023BD4280D711D00E2050C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BD3280D711D00E2050C /* CircleImage.swift */; };
+		69023BD6280D714500E2050C /* VkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BD5280D714500E2050C /* VkButton.swift */; };
+		69023BD8280D719100E2050C /* VkLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BD7280D719100E2050C /* VkLoginView.swift */; };
+		69023BDA280D721900E2050C /* VkLoginFromWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BD9280D721900E2050C /* VkLoginFromWebView.swift */; };
+		69023BDC280D724800E2050C /* VkMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BDB280D724800E2050C /* VkMainView.swift */; };
+		69023BDE280D727900E2050C /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BDD280D727800E2050C /* UserCellView.swift */; };
+		69023BE2280D72D900E2050C /* GroupCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE1280D72D900E2050C /* GroupCellView.swift */; };
+		69023BE4280D737400E2050C /* VkFriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE3280D737400E2050C /* VkFriendListView.swift */; };
+		69023BE6280D739F00E2050C /* VkGroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE5280D739F00E2050C /* VkGroupListView.swift */; };
+		69023BE8280D73C500E2050C /* VkFriendDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE7280D73C500E2050C /* VkFriendDetailView.swift */; };
+		69023BEA280D73F100E2050C /* VkNewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BE9280D73F100E2050C /* VkNewsFeedView.swift */; };
+		69023BEC280D7BD600E2050C /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BEB280D7BD600E2050C /* SpringAnimation.swift */; };
+		69023BEE280D9B8400E2050C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BED280D9B8400E2050C /* AppDelegate.swift */; };
+		69023BF2280D9BC800E2050C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69023BF1280D9BC800E2050C /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +44,31 @@
 		69023BAD280D6C1D00E2050C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		69023BAF280D6C2000E2050C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69023BB2280D6C2000E2050C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69023BBD280D6F3C00E2050C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		69023BBF280D6F7C00E2050C /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		69023BC1280D6FA400E2050C /* VkWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkWebView.swift; sourceTree = "<group>"; };
+		69023BC3280D6FCA00E2050C /* VKResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKResponse.swift; sourceTree = "<group>"; };
+		69023BC5280D700200E2050C /* PhotoGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGallery.swift; sourceTree = "<group>"; };
+		69023BC7280D702000E2050C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		69023BC9280D703B00E2050C /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		69023BCB280D708A00E2050C /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		69023BCD280D70A800E2050C /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		69023BCF280D70CD00E2050C /* FriendModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModelView.swift; sourceTree = "<group>"; };
+		69023BD1280D70DD00E2050C /* GroupModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModelView.swift; sourceTree = "<group>"; };
+		69023BD3280D711D00E2050C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		69023BD5280D714500E2050C /* VkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkButton.swift; sourceTree = "<group>"; };
+		69023BD7280D719100E2050C /* VkLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkLoginView.swift; sourceTree = "<group>"; };
+		69023BD9280D721900E2050C /* VkLoginFromWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkLoginFromWebView.swift; sourceTree = "<group>"; };
+		69023BDB280D724800E2050C /* VkMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkMainView.swift; sourceTree = "<group>"; };
+		69023BDD280D727800E2050C /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		69023BE1280D72D900E2050C /* GroupCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellView.swift; sourceTree = "<group>"; };
+		69023BE3280D737400E2050C /* VkFriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkFriendListView.swift; sourceTree = "<group>"; };
+		69023BE5280D739F00E2050C /* VkGroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkGroupListView.swift; sourceTree = "<group>"; };
+		69023BE7280D73C500E2050C /* VkFriendDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkFriendDetailView.swift; sourceTree = "<group>"; };
+		69023BE9280D73F100E2050C /* VkNewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkNewsFeedView.swift; sourceTree = "<group>"; };
+		69023BEB280D7BD600E2050C /* SpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		69023BED280D9B8400E2050C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69023BF1280D9BC800E2050C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +101,21 @@
 		69023BAA280D6C1D00E2050C /* VKUI */ = {
 			isa = PBXGroup;
 			children = (
+				69023BB9280D6F0900E2050C /* Services */,
+				69023BBA280D6F1300E2050C /* Components */,
+				69023BBB280D6F1F00E2050C /* Models */,
+				69023BBC280D6F2900E2050C /* ViewModifier */,
 				69023BAB280D6C1D00E2050C /* VKUIApp.swift */,
+				69023BD7280D719100E2050C /* VkLoginView.swift */,
+				69023BD9280D721900E2050C /* VkLoginFromWebView.swift */,
+				69023BDB280D724800E2050C /* VkMainView.swift */,
+				69023BDD280D727800E2050C /* UserCellView.swift */,
+				69023BE1280D72D900E2050C /* GroupCellView.swift */,
+				69023BE3280D737400E2050C /* VkFriendListView.swift */,
+				69023BE5280D739F00E2050C /* VkGroupListView.swift */,
+				69023BE7280D73C500E2050C /* VkFriendDetailView.swift */,
+				69023BE9280D73F100E2050C /* VkNewsFeedView.swift */,
+				69023BED280D9B8400E2050C /* AppDelegate.swift */,
 				69023BAD280D6C1D00E2050C /* ContentView.swift */,
 				69023BAF280D6C2000E2050C /* Assets.xcassets */,
 				69023BB1280D6C2000E2050C /* Preview Content */,
@@ -65,6 +129,49 @@
 				69023BB2280D6C2000E2050C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69023BB9280D6F0900E2050C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69023BBD280D6F3C00E2050C /* NetworkService.swift */,
+				69023BBF280D6F7C00E2050C /* NetworkServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69023BBA280D6F1300E2050C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				69023BC1280D6FA400E2050C /* VkWebView.swift */,
+				69023BF1280D9BC800E2050C /* TabBarController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		69023BBB280D6F1F00E2050C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69023BC3280D6FCA00E2050C /* VKResponse.swift */,
+				69023BC5280D700200E2050C /* PhotoGallery.swift */,
+				69023BC7280D702000E2050C /* News.swift */,
+				69023BC9280D703B00E2050C /* Group.swift */,
+				69023BCB280D708A00E2050C /* Friend.swift */,
+				69023BCD280D70A800E2050C /* AuthData.swift */,
+				69023BCF280D70CD00E2050C /* FriendModelView.swift */,
+				69023BD1280D70DD00E2050C /* GroupModelView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69023BBC280D6F2900E2050C /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				69023BD3280D711D00E2050C /* CircleImage.swift */,
+				69023BD5280D714500E2050C /* VkButton.swift */,
+				69023BEB280D7BD600E2050C /* SpringAnimation.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +244,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69023BDC280D724800E2050C /* VkMainView.swift in Sources */,
+				69023BD6280D714500E2050C /* VkButton.swift in Sources */,
+				69023BD8280D719100E2050C /* VkLoginView.swift in Sources */,
+				69023BF2280D9BC800E2050C /* TabBarController.swift in Sources */,
+				69023BD0280D70CD00E2050C /* FriendModelView.swift in Sources */,
+				69023BCA280D703B00E2050C /* Group.swift in Sources */,
+				69023BE8280D73C500E2050C /* VkFriendDetailView.swift in Sources */,
+				69023BC2280D6FA400E2050C /* VkWebView.swift in Sources */,
+				69023BD4280D711D00E2050C /* CircleImage.swift in Sources */,
+				69023BEE280D9B8400E2050C /* AppDelegate.swift in Sources */,
+				69023BC0280D6F7C00E2050C /* NetworkServiceProtocol.swift in Sources */,
+				69023BDE280D727900E2050C /* UserCellView.swift in Sources */,
+				69023BCE280D70A800E2050C /* AuthData.swift in Sources */,
+				69023BD2280D70DD00E2050C /* GroupModelView.swift in Sources */,
+				69023BEA280D73F100E2050C /* VkNewsFeedView.swift in Sources */,
+				69023BDA280D721900E2050C /* VkLoginFromWebView.swift in Sources */,
+				69023BC8280D702000E2050C /* News.swift in Sources */,
 				69023BAE280D6C1D00E2050C /* ContentView.swift in Sources */,
+				69023BE2280D72D900E2050C /* GroupCellView.swift in Sources */,
+				69023BEC280D7BD600E2050C /* SpringAnimation.swift in Sources */,
+				69023BBE280D6F3C00E2050C /* NetworkService.swift in Sources */,
+				69023BC6280D700200E2050C /* PhotoGallery.swift in Sources */,
+				69023BCC280D708A00E2050C /* Friend.swift in Sources */,
 				69023BAC280D6C1D00E2050C /* VKUIApp.swift in Sources */,
+				69023BC4280D6FCA00E2050C /* VKResponse.swift in Sources */,
+				69023BE4280D737400E2050C /* VkFriendListView.swift in Sources */,
+				69023BE6280D739F00E2050C /* VkGroupListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
