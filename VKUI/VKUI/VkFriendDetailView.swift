@@ -10,7 +10,7 @@ import SwiftUI
 struct VkFriendDetailView: View {
     var friend: Friend
     
-    @State private var scale : CGFloat = 1.0
+    @State private var scale: CGFloat = 1.0
     
     var body: some View {
         ScrollView {
@@ -18,7 +18,7 @@ struct VkFriendDetailView: View {
                 userAvatar
                 userNickName
                 
-                VkUserGallery()
+                VkUserGallery(friend: friend)
                 Spacer()
             }
             .padding()
@@ -34,7 +34,7 @@ extension VkFriendDetailView {
         } placeholder: {
             ProgressView()
         }
-        .frame(width: 200 * scale,height: 200 * scale)
+        .frame(width: 200 * scale, height: 200 * scale)
         .modifier(CircleShadow(shadowColor: .orange, shadowRadius: 3))
     }
 }
@@ -48,18 +48,30 @@ extension VkFriendDetailView {
 }
 
 private struct VkUserGallery: View {
-    private let items = 1 ... 5
+    var friend: Friend
+    @EnvironmentObject var viewModel: FriendModelView
     private let columns = [
         GridItem(.adaptive(minimum: 100), spacing: 15),
     ]
     
     var body: some View {
         LazyVGrid(columns: columns, spacing: 15) {
-            ForEach(items, id: \.self) { i in
-                Image("post\(i)")
-                    .resizable()
-                    .scaledToFit()
+            ForEach(viewModel.gallery, id: \.self) { g in
+                if let img = g.items.getImageByType(type: "x"),
+                   let imgUrl = img.photoUrl
+                {
+                    AsyncImage(url: imgUrl) { image in
+                        image
+                            .resizable()
+                            .scaledToFit()
+                    } placeholder: {
+                        ProgressView()
+                    }
+                }
             }
+        }
+        .onAppear {
+            viewModel.fetchGallery(ownerId: Int(friend.id))
         }
     }
 }
